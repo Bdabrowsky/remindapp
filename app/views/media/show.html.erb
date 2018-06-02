@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<p class='show'>
+  <strong>Tytuł:</strong>
   <%= @medium.title %>
 </p>
 
-<p>
-  <strong>Author:</strong>
+<p class='show'>
+  <strong>Autor:</strong>
   <%= @medium.author %>
 </p>
 
-<p>
+<p class='show'>
   <strong>Body:</strong>
   <%= @medium.body %>
 </p>
 
-<%= link_to 'Edit', edit_medium_path(@medium) %> |
-<%= link_to 'Back', media_path %>
+<!--<%= link_to 'Edit', edit_medium_path(@medium) %> | -->
+<div id='show-a'> <%= link_to 'Wstecz', media_path %> </div>
